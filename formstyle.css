@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#333;
+}
+
+.totalform {
+  background-color: white;
+  width: 500px;
+  margin-top: 50px;
+  margin: auto;
+  border-radius: 10px;
+}
+.totalform form {
+  position: relative;
+  padding: 20px;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), -3px -3px 5px rgba(0, 0, 0, 0.3);
+  width: 500px;
+}
+.totalform form input[type=text] {
+  width: 460px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+  outline: none;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+.totalform form input[type=date] {
+  font-size: 15px;
+}
+.totalform form input[type=number] {
+  width: 460px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+  outline: none;
+  box-sizing: border-box;
+}
+.totalform form input[type=email] {
+  width: 460px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+  outline: none;
+  box-sizing: border-box;
+}
+.totalform form .name {
+  margin-top: 20px;
+}
+.totalform form .date {
+  margin-top: 20px;
+}
+.totalform form .Aadhar {
+  margin-top: 20px;
+}
+.totalform form .email {
+  margin-top: 20px;
+}
+.totalform form .phone {
+  margin-top: 20px;
+}
+.totalform form .address {
+  margin-top: 20px;
+}
+.totalform form .address textarea {
+  resize: none;
+  width: 200px;
+  margin-top: 10px;
+  outline: none;
+}
+.totalform form input[type=submit] {
+  border: none;
+  padding: 20px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 20px;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.totalform form .icon i {
+  position: absolute;
+  font-size: 60px;
+  top: -35px;
+  left: 200px;
+}
+body {
+  background-image: url("https://backgroundcheckall.com/wp-content/uploads/2017/12/admin-login-background-images-8.jpg");
+}
+
+
+/*# sourceMappingURL=formstyle.css.map */
